@@ -7,7 +7,7 @@ This will run NCHAN with a publisher route at `/pub` and a subscriber route at `
 
 ~~~sh
 # start a subscriber connection
-curl <your url>/sub?id=foobar   # id query parameter is the channel
+curl <your-url>/sub?id=foobar   # id query parameter is the channel
 
 # somewhere else:
 curl <your-url>/pub?id=foobar -X POST --data 'hello'
