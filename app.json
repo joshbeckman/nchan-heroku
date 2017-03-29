@@ -1,0 +1,13 @@
+{
+    "name": "NCHAN Heroku",
+    "description": "A barebones NCHAN setup running on Heroku",
+    "repository": "https://github.com/andjosh/nchan-heroku",
+    "logo": "https://nchan.io/img/nchan_logo.png",
+    "keywords": ["nginx", "nchan", "pub/sub", "notifications"],
+    "buildpacks": [
+        {
+            "url": "https://github.com/andjosh/nchan-buildpack"
+        }
+          
+    ]
+}
